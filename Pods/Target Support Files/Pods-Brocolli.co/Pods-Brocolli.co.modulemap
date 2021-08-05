@@ -1,0 +1,6 @@
+module Pods_Brocolli_co {
+  umbrella header "Pods-Brocolli.co-umbrella.h"
+
+  export *
+  module * { export * }
+}

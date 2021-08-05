@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAE2F860273A78E7E8D0C25 /* libPods-Brocolli.co.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634C9EDB5D1BD3CAB9DAAF6 /* libPods-Brocolli.co.a */; };
+		95359FE526BB795500CCD0FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95359FE426BB795500CCD0FF /* AppDelegate.swift */; };
+		95359FE726BB795500CCD0FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95359FE626BB795500CCD0FF /* SceneDelegate.swift */; };
+		95359FE926BB795500CCD0FF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95359FE826BB795500CCD0FF /* HomeViewController.swift */; };
+		95359FEE26BB795600CCD0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95359FED26BB795600CCD0FF /* Assets.xcassets */; };
+		95359FF126BB795600CCD0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95359FEF26BB795600CCD0FF /* LaunchScreen.storyboard */; };
+		95D0E33126BB7E6A002C8915 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E33026BB7E6A002C8915 /* MainRouter.swift */; };
+		95D0E33426BB8189002C8915 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E33326BB8189002C8915 /* Design.swift */; };
+		95D0E33626BB8EA9002C8915 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E33526BB8EA9002C8915 /* RegistrationViewController.swift */; };
+		95D0E33C26BBA8CA002C8915 /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E33B26BBA8CA002C8915 /* RegistrationPresenter.swift */; };
+		95D0E34226BBBFEE002C8915 /* RegistrationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E34126BBBFEE002C8915 /* RegistrationFetcher.swift */; };
+		95D0E34426BBEC93002C8915 /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E34326BBEC93002C8915 /* ShakeAnimation.swift */; };
+		95D0E34726BC0D1E002C8915 /* CongratulationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E34626BC0D1E002C8915 /* CongratulationsViewController.swift */; };
+		95D0E34926BC18FB002C8915 /* RegistrationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E34826BC18FB002C8915 /* RegistrationManager.swift */; };
+		95D0E34B26BC193C002C8915 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E34A26BC193C002C8915 /* Registration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05B652AF5A52C676ACE0CA0F /* Pods-Brocolli.co.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brocolli.co.release.xcconfig"; path = "Target Support Files/Pods-Brocolli.co/Pods-Brocolli.co.release.xcconfig"; sourceTree = "<group>"; };
+		2634C9EDB5D1BD3CAB9DAAF6 /* libPods-Brocolli.co.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brocolli.co.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95359FE126BB795500CCD0FF /* Brocolli.co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brocolli.co.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95359FE426BB795500CCD0FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95359FE626BB795500CCD0FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		95359FE826BB795500CCD0FF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		95359FED26BB795600CCD0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95359FF026BB795600CCD0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95359FF226BB795600CCD0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D0E33026BB7E6A002C8915 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		95D0E33326BB8189002C8915 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		95D0E33526BB8EA9002C8915 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		95D0E33B26BBA8CA002C8915 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
+		95D0E34126BBBFEE002C8915 /* RegistrationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationFetcher.swift; sourceTree = "<group>"; };
+		95D0E34326BBEC93002C8915 /* ShakeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
+		95D0E34626BC0D1E002C8915 /* CongratulationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsViewController.swift; sourceTree = "<group>"; };
+		95D0E34826BC18FB002C8915 /* RegistrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationManager.swift; sourceTree = "<group>"; };
+		95D0E34A26BC193C002C8915 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		EE1403FAE791F20C64F7703B /* Pods-Brocolli.co.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brocolli.co.debug.xcconfig"; path = "Target Support Files/Pods-Brocolli.co/Pods-Brocolli.co.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95359FDE26BB795500CCD0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAE2F860273A78E7E8D0C25 /* libPods-Brocolli.co.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574E311EA46C4929309A6FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2634C9EDB5D1BD3CAB9DAAF6 /* libPods-Brocolli.co.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95359FD826BB795500CCD0FF = {
+			isa = PBXGroup;
+			children = (
+				95359FE326BB795500CCD0FF /* Brocolli.co */,
+				95359FE226BB795500CCD0FF /* Products */,
+				ADE504D972C8B49DCCFB9BFC /* Pods */,
+				574E311EA46C4929309A6FBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95359FE226BB795500CCD0FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95359FE126BB795500CCD0FF /* Brocolli.co.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95359FE326BB795500CCD0FF /* Brocolli.co */ = {
+			isa = PBXGroup;
+			children = (
+				95D0E33226BB817E002C8915 /* Design */,
+				95D0E32F26BB7E59002C8915 /* Router */,
+				95D0E34526BC0D09002C8915 /* Congratulations */,
+				95359FF926BB7ADD00CCD0FF /* Registration */,
+				95359FF826BB7A9E00CCD0FF /* Home */,
+				95359FE426BB795500CCD0FF /* AppDelegate.swift */,
+				95359FE626BB795500CCD0FF /* SceneDelegate.swift */,
+				95359FED26BB795600CCD0FF /* Assets.xcassets */,
+				95359FEF26BB795600CCD0FF /* LaunchScreen.storyboard */,
+				95359FF226BB795600CCD0FF /* Info.plist */,
+			);
+			path = Brocolli.co;
+			sourceTree = "<group>";
+		};
+		95359FF826BB7A9E00CCD0FF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				95359FE826BB795500CCD0FF /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		95359FF926BB7ADD00CCD0FF /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				95D0E34A26BC193C002C8915 /* Registration.swift */,
+				95D0E33526BB8EA9002C8915 /* RegistrationViewController.swift */,
+				95D0E33B26BBA8CA002C8915 /* RegistrationPresenter.swift */,
+				95D0E34126BBBFEE002C8915 /* RegistrationFetcher.swift */,
+				95D0E34826BC18FB002C8915 /* RegistrationManager.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		95D0E32F26BB7E59002C8915 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				95D0E33026BB7E6A002C8915 /* MainRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		95D0E33226BB817E002C8915 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				95D0E33326BB8189002C8915 /* Design.swift */,
+				95D0E34326BBEC93002C8915 /* ShakeAnimation.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		95D0E34526BC0D09002C8915 /* Congratulations */ = {
+			isa = PBXGroup;
+			children = (
+				95D0E34626BC0D1E002C8915 /* CongratulationsViewController.swift */,
+			);
+			path = Congratulations;
+			sourceTree = "<group>";
+		};
+		ADE504D972C8B49DCCFB9BFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE1403FAE791F20C64F7703B /* Pods-Brocolli.co.debug.xcconfig */,
+				05B652AF5A52C676ACE0CA0F /* Pods-Brocolli.co.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95359FE026BB795500CCD0FF /* Brocolli.co */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95359FF526BB795600CCD0FF /* Build configuration list for PBXNativeTarget "Brocolli.co" */;
+			buildPhases = (
+				9641A11EA353514C80969D60 /* [CP] Check Pods Manifest.lock */,
+				95359FDD26BB795500CCD0FF /* Sources */,
+				95359FDE26BB795500CCD0FF /* Frameworks */,
+				95359FDF26BB795500CCD0FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brocolli.co;
+			productName = Brocolli.co;
+			productReference = 95359FE126BB795500CCD0FF /* Brocolli.co.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95359FD926BB795500CCD0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					95359FE026BB795500CCD0FF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 95359FDC26BB795500CCD0FF /* Build configuration list for PBXProject "Brocolli.co" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95359FD826BB795500CCD0FF;
+			productRefGroup = 95359FE226BB795500CCD0FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95359FE026BB795500CCD0FF /* Brocolli.co */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95359FDF26BB795500CCD0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95359FF126BB795600CCD0FF /* LaunchScreen.storyboard in Resources */,
+				95359FEE26BB795600CCD0FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9641A11EA353514C80969D60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brocolli.co-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95359FDD26BB795500CCD0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D0E34226BBBFEE002C8915 /* RegistrationFetcher.swift in Sources */,
+				95D0E33C26BBA8CA002C8915 /* RegistrationPresenter.swift in Sources */,
+				95D0E34926BC18FB002C8915 /* RegistrationManager.swift in Sources */,
+				95D0E33626BB8EA9002C8915 /* RegistrationViewController.swift in Sources */,
+				95D0E34B26BC193C002C8915 /* Registration.swift in Sources */,
+				95359FE926BB795500CCD0FF /* HomeViewController.swift in Sources */,
+				95D0E33126BB7E6A002C8915 /* MainRouter.swift in Sources */,
+				95D0E34426BBEC93002C8915 /* ShakeAnimation.swift in Sources */,
+				95359FE526BB795500CCD0FF /* AppDelegate.swift in Sources */,
+				95359FE726BB795500CCD0FF /* SceneDelegate.swift in Sources */,
+				95D0E34726BC0D1E002C8915 /* CongratulationsViewController.swift in Sources */,
+				95D0E33426BB8189002C8915 /* Design.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95359FEF26BB795600CCD0FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95359FF026BB795600CCD0FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95359FF326BB795600CCD0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95359FF426BB795600CCD0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95359FF626BB795600CCD0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1403FAE791F20C64F7703B /* Pods-Brocolli.co.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKEUGD25W4;
+				INFOPLIST_FILE = Brocolli.co/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jckk.Brocolli-co";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95359FF726BB795600CCD0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B652AF5A52C676ACE0CA0F /* Pods-Brocolli.co.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKEUGD25W4;
+				INFOPLIST_FILE = Brocolli.co/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jckk.Brocolli-co";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95359FDC26BB795500CCD0FF /* Build configuration list for PBXProject "Brocolli.co" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95359FF326BB795600CCD0FF /* Debug */,
+				95359FF426BB795600CCD0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95359FF526BB795600CCD0FF /* Build configuration list for PBXNativeTarget "Brocolli.co" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95359FF626BB795600CCD0FF /* Debug */,
+				95359FF726BB795600CCD0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95359FD926BB795500CCD0FF /* Project object */;
+}
