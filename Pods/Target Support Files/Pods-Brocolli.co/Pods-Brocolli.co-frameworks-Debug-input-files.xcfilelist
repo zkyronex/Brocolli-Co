@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Brocolli.co/Pods-Brocolli.co-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift-iOS14.3/RxSwift.framework

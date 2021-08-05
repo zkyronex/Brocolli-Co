@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CAE2F860273A78E7E8D0C25 /* libPods-Brocolli.co.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2634C9EDB5D1BD3CAB9DAAF6 /* libPods-Brocolli.co.a */; };
+		6ECC8E8CD32EC17497EA7988 /* Pods_Brocolli_co.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F23EFD9F165AA6B9FCA9DC1 /* Pods_Brocolli_co.framework */; };
+		8124335836E1F827A2DB4A48 /* Pods_Brocolli_coTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25C2FD204EB5DEB5B4F3DD3 /* Pods_Brocolli_coTests.framework */; };
 		95359FE526BB795500CCD0FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95359FE426BB795500CCD0FF /* AppDelegate.swift */; };
 		95359FE726BB795500CCD0FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95359FE626BB795500CCD0FF /* SceneDelegate.swift */; };
 		95359FE926BB795500CCD0FF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95359FE826BB795500CCD0FF /* HomeViewController.swift */; };
 		95359FEE26BB795600CCD0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95359FED26BB795600CCD0FF /* Assets.xcassets */; };
 		95359FF126BB795600CCD0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95359FEF26BB795600CCD0FF /* LaunchScreen.storyboard */; };
+		953F5EC726BC3067006E2FB9 /* RegistrationPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953F5EC626BC3067006E2FB9 /* RegistrationPresenterTests.swift */; };
 		95D0E33126BB7E6A002C8915 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E33026BB7E6A002C8915 /* MainRouter.swift */; };
 		95D0E33426BB8189002C8915 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E33326BB8189002C8915 /* Design.swift */; };
 		95D0E33626BB8EA9002C8915 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E33526BB8EA9002C8915 /* RegistrationViewController.swift */; };
@@ -24,9 +26,21 @@
 		95D0E34B26BC193C002C8915 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0E34A26BC193C002C8915 /* Registration.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		953F5EC926BC3067006E2FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95359FD926BB795500CCD0FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95359FE026BB795500CCD0FF;
+			remoteInfo = Brocolli.co;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		05B652AF5A52C676ACE0CA0F /* Pods-Brocolli.co.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brocolli.co.release.xcconfig"; path = "Target Support Files/Pods-Brocolli.co/Pods-Brocolli.co.release.xcconfig"; sourceTree = "<group>"; };
-		2634C9EDB5D1BD3CAB9DAAF6 /* libPods-Brocolli.co.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brocolli.co.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B90DB7076FA8C1006ACB36 /* Pods-Brocolli.coTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brocolli.coTests.release.xcconfig"; path = "Target Support Files/Pods-Brocolli.coTests/Pods-Brocolli.coTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F23EFD9F165AA6B9FCA9DC1 /* Pods_Brocolli_co.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brocolli_co.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD470E25769636D894780BD /* Pods-Brocolli.coTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brocolli.coTests.debug.xcconfig"; path = "Target Support Files/Pods-Brocolli.coTests/Pods-Brocolli.coTests.debug.xcconfig"; sourceTree = "<group>"; };
 		95359FE126BB795500CCD0FF /* Brocolli.co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brocolli.co.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95359FE426BB795500CCD0FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95359FE626BB795500CCD0FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +48,9 @@
 		95359FED26BB795600CCD0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95359FF026BB795600CCD0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95359FF226BB795600CCD0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953F5EC426BC3067006E2FB9 /* Brocolli.coTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Brocolli.coTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953F5EC626BC3067006E2FB9 /* RegistrationPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenterTests.swift; sourceTree = "<group>"; };
+		953F5EC826BC3067006E2FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95D0E33026BB7E6A002C8915 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		95D0E33326BB8189002C8915 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
 		95D0E33526BB8EA9002C8915 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +60,7 @@
 		95D0E34626BC0D1E002C8915 /* CongratulationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationsViewController.swift; sourceTree = "<group>"; };
 		95D0E34826BC18FB002C8915 /* RegistrationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationManager.swift; sourceTree = "<group>"; };
 		95D0E34A26BC193C002C8915 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		E25C2FD204EB5DEB5B4F3DD3 /* Pods_Brocolli_coTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Brocolli_coTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1403FAE791F20C64F7703B /* Pods-Brocolli.co.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brocolli.co.debug.xcconfig"; path = "Target Support Files/Pods-Brocolli.co/Pods-Brocolli.co.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +69,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CAE2F860273A78E7E8D0C25 /* libPods-Brocolli.co.a in Frameworks */,
+				6ECC8E8CD32EC17497EA7988 /* Pods_Brocolli_co.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953F5EC126BC3067006E2FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8124335836E1F827A2DB4A48 /* Pods_Brocolli_coTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +87,8 @@
 		574E311EA46C4929309A6FBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2634C9EDB5D1BD3CAB9DAAF6 /* libPods-Brocolli.co.a */,
+				4F23EFD9F165AA6B9FCA9DC1 /* Pods_Brocolli_co.framework */,
+				E25C2FD204EB5DEB5B4F3DD3 /* Pods_Brocolli_coTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				95359FE326BB795500CCD0FF /* Brocolli.co */,
+				953F5EC526BC3067006E2FB9 /* Brocolli.coTests */,
 				95359FE226BB795500CCD0FF /* Products */,
 				ADE504D972C8B49DCCFB9BFC /* Pods */,
 				574E311EA46C4929309A6FBE /* Frameworks */,
@@ -80,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				95359FE126BB795500CCD0FF /* Brocolli.co.app */,
+				953F5EC426BC3067006E2FB9 /* Brocolli.coTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +150,23 @@
 			path = Registration;
 			sourceTree = "<group>";
 		};
+		953F5EC526BC3067006E2FB9 /* Brocolli.coTests */ = {
+			isa = PBXGroup;
+			children = (
+				953F5ECE26BC3084006E2FB9 /* Registration */,
+				953F5EC826BC3067006E2FB9 /* Info.plist */,
+			);
+			path = Brocolli.coTests;
+			sourceTree = "<group>";
+		};
+		953F5ECE26BC3084006E2FB9 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				953F5EC626BC3067006E2FB9 /* RegistrationPresenterTests.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
 		95D0E32F26BB7E59002C8915 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +197,8 @@
 			children = (
 				EE1403FAE791F20C64F7703B /* Pods-Brocolli.co.debug.xcconfig */,
 				05B652AF5A52C676ACE0CA0F /* Pods-Brocolli.co.release.xcconfig */,
+				5FD470E25769636D894780BD /* Pods-Brocolli.coTests.debug.xcconfig */,
+				25B90DB7076FA8C1006ACB36 /* Pods-Brocolli.coTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -166,6 +214,7 @@
 				95359FDD26BB795500CCD0FF /* Sources */,
 				95359FDE26BB795500CCD0FF /* Frameworks */,
 				95359FDF26BB795500CCD0FF /* Resources */,
+				646860BF5CF37DA049B16C12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +224,26 @@
 			productName = Brocolli.co;
 			productReference = 95359FE126BB795500CCD0FF /* Brocolli.co.app */;
 			productType = "com.apple.product-type.application";
+		};
+		953F5EC326BC3067006E2FB9 /* Brocolli.coTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953F5ECB26BC3067006E2FB9 /* Build configuration list for PBXNativeTarget "Brocolli.coTests" */;
+			buildPhases = (
+				7282F199EE0AE115BA85F284 /* [CP] Check Pods Manifest.lock */,
+				953F5EC026BC3067006E2FB9 /* Sources */,
+				953F5EC126BC3067006E2FB9 /* Frameworks */,
+				953F5EC226BC3067006E2FB9 /* Resources */,
+				22B759DB05E5A1B2A6624129 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953F5ECA26BC3067006E2FB9 /* PBXTargetDependency */,
+			);
+			name = Brocolli.coTests;
+			productName = Brocolli.coTests;
+			productReference = 953F5EC426BC3067006E2FB9 /* Brocolli.coTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -187,6 +256,10 @@
 				TargetAttributes = {
 					95359FE026BB795500CCD0FF = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					953F5EC326BC3067006E2FB9 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 95359FE026BB795500CCD0FF;
 					};
 				};
 			};
@@ -204,6 +277,7 @@
 			projectRoot = "";
 			targets = (
 				95359FE026BB795500CCD0FF /* Brocolli.co */,
+				953F5EC326BC3067006E2FB9 /* Brocolli.coTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,9 +292,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		953F5EC226BC3067006E2FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		22B759DB05E5A1B2A6624129 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brocolli.coTests/Pods-Brocolli.coTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brocolli.coTests/Pods-Brocolli.coTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brocolli.coTests/Pods-Brocolli.coTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		646860BF5CF37DA049B16C12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brocolli.co/Pods-Brocolli.co-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brocolli.co/Pods-Brocolli.co-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brocolli.co/Pods-Brocolli.co-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7282F199EE0AE115BA85F284 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brocolli.coTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9641A11EA353514C80969D60 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -265,7 +402,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		953F5EC026BC3067006E2FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953F5EC726BC3067006E2FB9 /* RegistrationPresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		953F5ECA26BC3067006E2FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95359FE026BB795500CCD0FF /* Brocolli.co */;
+			targetProxy = 953F5EC926BC3067006E2FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		95359FEF26BB795600CCD0FF /* LaunchScreen.storyboard */ = {
@@ -437,6 +590,48 @@
 			};
 			name = Release;
 		};
+		953F5ECC26BC3067006E2FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FD470E25769636D894780BD /* Pods-Brocolli.coTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKEUGD25W4;
+				INFOPLIST_FILE = Brocolli.coTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jckk.Brocolli-coTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brocolli.co.app/Brocolli.co";
+			};
+			name = Debug;
+		};
+		953F5ECD26BC3067006E2FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B90DB7076FA8C1006ACB36 /* Pods-Brocolli.coTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKEUGD25W4;
+				INFOPLIST_FILE = Brocolli.coTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jckk.Brocolli-coTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brocolli.co.app/Brocolli.co";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -454,6 +649,15 @@
 			buildConfigurations = (
 				95359FF626BB795600CCD0FF /* Debug */,
 				95359FF726BB795600CCD0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953F5ECB26BC3067006E2FB9 /* Build configuration list for PBXNativeTarget "Brocolli.coTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953F5ECC26BC3067006E2FB9 /* Debug */,
+				953F5ECD26BC3067006E2FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,4 +1,4 @@
-module Pods_Brocolli_co {
+framework module Pods_Brocolli_co {
   umbrella header "Pods-Brocolli.co-umbrella.h"
 
   export *
